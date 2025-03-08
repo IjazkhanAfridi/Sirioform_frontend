@@ -18,7 +18,7 @@ const Navbar = () => {
     const fetchNotifications = async () => {
       try {
         const { data } = await axios.get(
-          'http://172.232.209.245/api/notifications',
+          '/api/notifications',
           {
             headers: { 'x-auth-token': `${localStorage.getItem('token')}` },
           }

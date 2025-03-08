@@ -419,6 +419,7 @@ const CenterList = () => {
       >
         Indietro
       </button>
+      
 
       {/* Modal per Assegnare Sanitario */}
       {showSanitarioModal && (

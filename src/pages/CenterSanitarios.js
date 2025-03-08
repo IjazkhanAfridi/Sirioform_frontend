@@ -45,20 +45,6 @@ const CenterSanitarios = () => {
   return (
     <div className='container mt-4'>
       <h1 className='mb-4'>Sanitari Associati</h1>
-      {/* <ul className="list-group">
-        {sanitarios.map(sanitario => (
-          <li key={sanitario._id} className="list-group-item">
-            <p>Nome: {sanitario.firstName}</p>
-            <p>Cognome: {sanitario.lastName}</p>
-            <p>Codice Fiscale: {sanitario.fiscalCode}</p>
-            <p>Indirizzo: {sanitario.address}</p>
-            <p>Città: {sanitario.city}</p>
-            <p>Regione: {sanitario.region}</p>
-            <p>Email: {sanitario.email}</p>
-            <p>Telefono: {sanitario.phone}</p>
-          </li>
-        ))}
-      </ul> */}
       <div className='table-responsive'>
         <table className='table table-striped table-bordered'>
           <thead className='thead-dark'>
